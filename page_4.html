@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .todo-list {
+      width: 300px;
+      border-collapse: collapse;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .todo-item:nth-child(even) {
+      background-color: #e6f5ff;
+    }
+
+    .todo-item:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    .todo-item input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .done {
+      text-decoration: line-through;
+      color: #666;
+    }
+
+    .cross {
+      color: darkred;
+      margin-left: auto;
+    }
+    a {
+            font-size: xx-large;
+            color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+  </style>
+</head>
+<body>
+
+  <div class="todo-list">
+    <div class="todo-item"><input type="checkbox"> <span>Hit the gym</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox" checked><span class="done">Pay bills</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Meet John</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Buy eggs</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox" checked><span class="done">Read a book</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Organize office</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Eat dinner</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Buy apples</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Meet George</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Feed the cat</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox" checked><span class="done">Write a letter</span> <span class="cross">✖</span></div>
+    <div class="todo-item"><input type="checkbox"> <span>Run 1 km</span> <span class="cross">✖</span></div>
+  </div>
+    <a href="./">назад</a>
+</body>
+</html>
